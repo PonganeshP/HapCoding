@@ -1,0 +1,9 @@
+Finding Factors and Prime has same logic/ pattern.
+Sqrt of N takes much less time than N (i.e,) O(logN) < O(sqrt(N)) < O(N)
+
+
+
+
+
+Queries:
+is there a way to find optimal solution for armstrong solution.
