@@ -1,0 +1,15 @@
+Time Complexity:
+    Rate of growth of execution time with respect to increase in input size.
+
+Practise finding time complexity.
+    Focus on how much iterations it takes to execute a code.
+
+
+[] -> Inclusive
+() -> Exclusive
+
+Sum of n natural numbers -> O(n^2) times
+Arithmetic Progression -> O(n^2) times
+Geometric Progression -> O(K^n) times
+
+
