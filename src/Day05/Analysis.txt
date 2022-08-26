@@ -1,0 +1,21 @@
+
+Finding Max
+    initialize max/min
+    iterate linearly and compare
+
+    TC: O(N)
+
+
+Array Reverse
+    While(i<j){swap(A[i],A[j])}
+    Will execute N/2 times -----> TC: O(N)
+
+Array Rotation can be done using Array Reverse
+    k=number of times rotated
+    1. Reverse entire array
+    2. Reverse start to k
+    3. Reverse K+1 to end
+
+    check prblm ArrayRotation.java
+
+    TC: O(N)

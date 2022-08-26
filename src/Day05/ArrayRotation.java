@@ -11,9 +11,9 @@ public class ArrayRotation {
         Reverse(
             Reverse(
             (Reverse(
-                A, 0, A.size()-1))
-                    ,0,B-1)
-                        ,B,A.size()-1);
+                A, 0, A.size()-1)) //Range 0 -> N-1
+                    ,0,B-1) //Range 0 -> K-1
+                        ,B,A.size()-1); //Range K -> N-1
 
     }
 
