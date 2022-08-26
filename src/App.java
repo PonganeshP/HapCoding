@@ -15,7 +15,7 @@ import Day06.RangeSumPrefix;
 public class App {
     public static void main(String[] args) throws Exception {
         var s1=new EquillibriumArray();
-        ArrayList<Integer> A=new ArrayList<>(Arrays.asList(-7,1,5,2,-4,3,0 ));
+        ArrayList<Integer> A=new ArrayList<>(Arrays.asList(1,2,3,4,5,1,2,3,4));
         // ArrayList<ArrayList<Integer>> B=new ArrayList<>();
         // ArrayList<Integer> c1=new ArrayList<>(Arrays.asList(1,4));
         // ArrayList<Integer> c2=new ArrayList<>(Arrays.asList(2,3));
