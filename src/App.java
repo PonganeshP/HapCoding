@@ -9,11 +9,13 @@ import Day05.Reverse;
 import Day05.ReverseRange;
 import Day05.SecondLargest;
 import Day05.TimeEquality;
+import Day06.EquillibriumArray;
+import Day06.RangeSumPrefix;
 
 public class App {
     public static void main(String[] args) throws Exception {
-        var s1=new TimeEquality();
-        ArrayList<Integer> A=new ArrayList<>(Arrays.asList(731, 349, 490, 781, 271, 405, 811, 181, 102, 126, 866, 16, 622, 492, 194, 735));
+        var s1=new EquillibriumArray();
+        ArrayList<Integer> A=new ArrayList<>(Arrays.asList(-7,1,5,2,-4,3,0 ));
         // ArrayList<ArrayList<Integer>> B=new ArrayList<>();
         // ArrayList<Integer> c1=new ArrayList<>(Arrays.asList(1,4));
         // ArrayList<Integer> c2=new ArrayList<>(Arrays.asList(2,3));
