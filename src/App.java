@@ -10,18 +10,16 @@ import Day05.ReverseRange;
 import Day05.SecondLargest;
 import Day05.TimeEquality;
 import Day06.EquillibriumArray;
+import Day06.EvenNumberRange;
 import Day06.RangeSumPrefix;
 
 public class App {
     public static void main(String[] args) throws Exception {
-        var s1=new EquillibriumArray();
-        ArrayList<Integer> A=new ArrayList<>(Arrays.asList(1,2,3,4,5,1,2,3,4));
-        // ArrayList<ArrayList<Integer>> B=new ArrayList<>();
-        // ArrayList<Integer> c1=new ArrayList<>(Arrays.asList(1,4));
-        // ArrayList<Integer> c2=new ArrayList<>(Arrays.asList(2,3));
-        // B.add(c1);
-        // B.add(c2);
-
-        System.out.println("Result: " + s1.solve(A));
+        var s1=new EvenNumberRange();
+        ArrayList<Integer> A=new ArrayList<Integer>(Arrays.asList(2, 1, 8, 3, 9));
+        ArrayList<ArrayList<Integer>> B=new ArrayList<ArrayList<Integer>>(new ArrayList<>());
+        B.add(0, new ArrayList<>(Arrays.asList(0,3)));
+        B.add(1, new ArrayList<>(Arrays.asList(2,4)));
+        System.out.println("Result: " + s1.solve(A,B));
     }
 }
