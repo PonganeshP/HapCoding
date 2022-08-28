@@ -12,14 +12,19 @@ import Day05.TimeEquality;
 import Day06.EquillibriumArray;
 import Day06.EvenNumberRange;
 import Day06.RangeSumPrefix;
+import Day07.AGsubsequence;
+import Day07.ClosestMinMax;
 
 public class App {
     public static void main(String[] args) throws Exception {
-        var s1=new EvenNumberRange();
-        ArrayList<Integer> A=new ArrayList<Integer>(Arrays.asList(2, 1, 8, 3, 9));
-        ArrayList<ArrayList<Integer>> B=new ArrayList<ArrayList<Integer>>(new ArrayList<>());
-        B.add(0, new ArrayList<>(Arrays.asList(0,3)));
-        B.add(1, new ArrayList<>(Arrays.asList(2,4)));
-        System.out.println("Result: " + s1.solve(A,B));
+        // var s1=new EvenNumberRange();
+        // ArrayList<Integer> A=new ArrayList<Integer>(Arrays.asList(2, 1, 8, 3, 9));
+        // ArrayList<ArrayList<Integer>> B=new ArrayList<ArrayList<Integer>>(new ArrayList<>());
+        // B.add(0, new ArrayList<>(Arrays.asList(0,3)));
+        // B.add(1, new ArrayList<>(Arrays.asList(2,4)));
+        var s1=new ClosestMinMax();
+        ArrayList<Integer> A=new ArrayList<Integer>(Arrays.asList(4,4,4,4,4,4));
+        System.out.println("Result: " + s1.solve(A));
+
     }
 }
