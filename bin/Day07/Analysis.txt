@@ -1,0 +1,16 @@
+*********Carry forward approach:
+
+LM[i]=max(LM[i-1],A[i])
+LM[0]=A[0]
+
+RM[i]=max(RM[i+1],A[i])
+RM[N-1]=A[N-1]
+_________________________________________
+
+********Subarray:
+Range [s,e]
+Number of elements in that range e-s+1
+
+in sum array min and max take O(N)
+
+_______________________________________________
