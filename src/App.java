@@ -18,6 +18,7 @@ import Day07.BuySellStock;
 import Day07.ClosestMinMax;
 import Day07.EvenArrays;
 import Day07.PickBothSides;
+import Day08.AlternateSubArrays;
 
 public class App {
     public static void main(String[] args) throws Exception {
@@ -26,8 +27,8 @@ public class App {
         // ArrayList<ArrayList<Integer>> B=new ArrayList<ArrayList<Integer>>(new ArrayList<>());
         // B.add(0, new ArrayList<>(Arrays.asList(0,3)));
         // B.add(1, new ArrayList<>(Arrays.asList(2,4)));
-        var s1=new EvenArrays();
-        ArrayList<Integer> A=new ArrayList<Integer>(Arrays.asList(2,4,8,7,6 ));
-        System.out.println("Result: " + s1.solve(A));
+        var s1=new AlternateSubArrays();
+        ArrayList<Integer> A=new ArrayList<Integer>(Arrays.asList( 1, 0, 1, 1, 1, 1, 1, 1, 0, 0, 0, 1, 0, 1, 1, 1, 0, 1, 0, 1, 1, 1, 0, 0  ));
+        System.out.println("Result: " + s1.solve(A,3));
     }
 }
