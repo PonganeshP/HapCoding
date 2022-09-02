@@ -1,5 +1,6 @@
 import java.util.ArrayList;
 import java.util.Arrays;
+import java.util.List;
 
 import Day02.IsPrime;
 import Day05.ArrayRotation;
@@ -19,16 +20,17 @@ import Day07.ClosestMinMax;
 import Day07.EvenArrays;
 import Day07.PickBothSides;
 import Day08.AlternateSubArrays;
+import Day09.MinorDiagonalSum;
 
 public class App {
     public static void main(String[] args) throws Exception {
         // var s1=new EvenNumberRange();
-        // ArrayList<Integer> A=new ArrayList<Integer>(Arrays.asList(2, 1, 8, 3, 9));
-        // ArrayList<ArrayList<Integer>> B=new ArrayList<ArrayList<Integer>>(new ArrayList<>());
-        // B.add(0, new ArrayList<>(Arrays.asList(0,3)));
-        // B.add(1, new ArrayList<>(Arrays.asList(2,4)));
-        var s1=new AlternateSubArrays();
-        ArrayList<Integer> A=new ArrayList<Integer>(Arrays.asList( 1, 0, 1, 1, 1, 1, 1, 1, 0, 0, 0, 1, 0, 1, 1, 1, 0, 1, 0, 1, 1, 1, 0, 0  ));
-        System.out.println("Result: " + s1.solve(A,3));
+        // var A=new ArrayList<Integer>(Arrays.asList(2, 1, 8, 3, 9));
+        List<ArrayList<Integer>> B=new ArrayList<ArrayList<Integer>>(new ArrayList<>());
+        B.add(0, new ArrayList<>(Arrays.asList(0,3)));
+        B.add(1, new ArrayList<>(Arrays.asList(2,4)));
+        var s1=new MinorDiagonalSum();
+        // ArrayList<Integer> A=new ArrayList<Integer>(Arrays.asList( 1, 0, 1, 1, 1, 1, 1, 1, 0, 0, 0, 1, 0, 1, 1, 1, 0, 1, 0, 1, 1, 1, 0, 0  ));
+        System.out.println("Result: " + s1.solve(B));
     }
 }
