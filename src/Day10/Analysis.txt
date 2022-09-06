@@ -1,0 +1,59 @@
+Spiral look into the matrix,
+will be checking only 0 ---> N-2 elements (left to right)
+
+TC: O(N^2)
+
+Sliding window:
+
+find sum/avg or something for first window size.
+then slide ----> add new element and remove the first element of previous window.
+
+TC: O(k+N-K) => O(N)
+
+At sometime we can use prefix array but it'll take O(N) space Complexity.
+    where SW technique use O(1) space complexity
+
+
+********************************************************
+Q1. Subarray with given sum and length
+
+A = [4, 3, 2, 6]
+B = 2
+C = 5
+
+Output 1:
+1
+
+Example Explanation
+Explanation 1:
+The subarray [3, 2] is of length 2 and sum 5.
+
+Soln: SlidingWindow1.java
+**********************************************************
+Q2. Minimum Swaps
+
+Input 1:
+
+ A = [1, 12, 10, 3, 14, 10, 5]
+ B = 8
+
+ Explanation 1:
+
+ A = [1, 12, 10, 3, 14, 10, 5]
+ After swapping  12 and 3, A => [1, 3, 10, 12, 14, 10, 5].
+ After swapping  the first occurence of 10 and 5, A => [1, 3, 5, 12, 14, 10, 10].
+ Now, all elements less than or equal to 8 are together.
+
+ Soln: SlidingWindow2.java
+*************************************************************
+
+ Q3. Spiral Order Matrix II
+
+ Input 3:
+ 5
+
+ [ [1, 2, 3, 4, 5], [16, 17, 18, 19, 6], [15, 24, 25, 20, 7], [14, 23, 22, 21, 8], [13, 12, 11, 10, 9] ]
+
+Soln: SpiralPrint.java
+*****************************************************************
+ 
