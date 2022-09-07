@@ -1,0 +1,30 @@
+Note:
+Play with i and j
+***********************************
+
+iterating through all elements 
+for(i->n){
+    for(j->m){
+        A[i][j];
+    }
+}
+
+will always take
+TC: O(N^2)
+
+***************************************
+For Transpose:
+res array will be of size(m)
+
+for(int j=0;j<=m;j++){
+            for(int i=0;i<=n;i++){
+                res[j][i]=A[i][j]
+            }
+        }
+
+**************************************
+For 90 degree rotate:
+
+Transpose+ Reverse column
+
+****************************************
