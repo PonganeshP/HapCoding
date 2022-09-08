@@ -1,0 +1,32 @@
+Notes:
+Analyse and bring all the variables to the paper.
+
+***************************************************
+
+
+Mind blowing puzzle:
+1) JosephUs prblm:
+One hundred people are standing in a circle in an order 1 to 100.
+
+No.1 has a sword. He kills the next person (i.e., no. 2) and gives the sword to the next (i.e., no. 3). All person does the same until only one survives.
+
+Which number survives at last?
+
+find minimum 2 power elements
+
+A=2^a+L
+find a:
+a=log(A)/log(2)
+
+then
+2L+1 element survives
+***********************************
+2) A spider is trying to build a web for itself. The web built by it doubles every day.
+
+If the spider entirely built the web in 15 days, how many days did it take for the spider to build 25% of the web?
+
+100%=15days
+50%=14days
+25%=13 days
+
+******************************************
