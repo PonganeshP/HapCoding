@@ -1,5 +1,7 @@
 Notes:
 Analyse and bring all the variables to the paper.
+O(N) for consecutive ones
+O(N^2) for triplets
 
 ***************************************************
 
