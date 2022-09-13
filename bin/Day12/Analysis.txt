@@ -4,3 +4,25 @@ Boyer Moore voting majorty algorithm. (Only for more than N/2 times)
 
 Can also be done by sorting and then calculating the count.
 ..............................
+
+
+
+Puzzle:
+
+1) You have 20 blue balls and 14 red balls in a bag. You put your hand in and remove 2 at a time.
+
+If they’re of the same color, you add a blue ball to the bag.
+If they’re of different colors, you add a red ball to the bag
+
+Use three possible chanes and find.
+
+
+2) You have 20 blue balls and 13 red balls in a bag. You put your hand in and remove two at a time.
+
+If they’re of the same color, you add a blue ball to the bag.
+If they’re of different colors, you add a red ball to the bag.
+
+3) In a country where everyone wants a boy, each family continues having babies till they have a boy.
+After a long time, what is the proportion of boys to girls in the country? (Assuming probability of having a boy or a girl is the same)
+      Expected Boy=No of boys*probability of boy
+      Use Sum of GP -> (first term) / (1-common ratio)
