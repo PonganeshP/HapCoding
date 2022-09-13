@@ -1,0 +1,6 @@
+Special index - > remove the particular index and the sum of odd index element == sum of even index element.
+.................
+Boyer Moore voting majorty algorithm. (Only for more than N/2 times)
+
+Can also be done by sorting and then calculating the count.
+..............................
