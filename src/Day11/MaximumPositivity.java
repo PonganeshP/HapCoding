@@ -2,6 +2,26 @@ package Day11;
 
 import java.util.ArrayList;
 
+// Problem Description
+// Given an array of integers A, of size N.
+
+// Return the maximum size subarray of A having only non-negative elements. If there are more than one such subarray, return the one having the smallest starting index in A.
+
+// NOTE: It is guaranteed that an answer always exists.
+
+// Explanation 1:
+
+//  There are two subarrays of size 2 having only non-negative elements.
+//  1. [5, 6]  starting point  = 0
+//  2. [7, 8]  starting point  = 3
+//  As starting point of 1 is smaller, return [5, 6]
+// Explanation 2:
+
+//  There is only one subarray of size 6 having only non-negative elements:
+//  [1, 2, 3, 4, 5, 6]
+
+
+
 public class MaximumPositivity {
     public ArrayList<Integer> solve(ArrayList<Integer> A) {
         int min_start_index=Integer.MAX_VALUE;

@@ -1,5 +1,18 @@
 package Day11;
 
+// Given a binary string A. It is allowed to do at most one swap between any 0 and 1. Find and return the length of the longest consecutive 1’s that can be achieved.
+
+// Input 1:
+//     A = "111000"
+// Output 1:
+//     3
+
+// Input 2:
+//     A = "111011101"
+// Output 2:
+//     7
+
+
 public class ConsecutiveOne {
     public int solve(String A) {
         int ans=Integer.MIN_VALUE;

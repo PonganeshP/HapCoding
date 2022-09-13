@@ -2,6 +2,26 @@ package Day12;
 
 import java.util.ArrayList;
 
+// Problem Description
+// Given an array, arr[] of size N, the task is to find the count of array indices such that removing an element from these indices makes the sum of even-indexed and odd-indexed array elements equal.
+
+
+// Example Input
+// Input 1:
+// A=[2, 1, 6, 4]
+// Input 2:
+
+// A=[1, 1, 1]
+
+
+// Example Output
+// Output 1:
+// 1
+// Output 2:
+
+// 3
+
+
 public class SpecialIndex{
     public int solve(ArrayList<Integer> A) {
         ArrayList<Integer> PSE=new ArrayList<Integer>();

@@ -2,6 +2,18 @@ package Day12;
 
 import java.util.List;
 
+// Problem Description
+// Given an array of size N, find the majority element. The majority element is the element that appears more than floor(n/2) times.
+// You may assume that the array is non-empty and the majority element always exists in the array.
+
+// Example Input
+// [2, 1, 2]
+
+
+// Example Output
+// 2
+
+
 public class MajorityElement { //using Boger Moore Majority voting algorithm
     public int majorityElement(final List<Integer> A) {
         int choosenOne=-1;
