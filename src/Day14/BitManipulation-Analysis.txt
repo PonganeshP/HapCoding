@@ -1,0 +1,30 @@
+Application of Bit manipulation in Prblm Solving:
+
+1) Help from Sam: Using right shift operator
+
+Alex and Sam are good friends. Alex is doing a lot of programming these days. He has set a target score of A for himself.
+Initially, Alex's score was zero. Alex can double his score by doing a question, or Alex can seek help from Sam for doing questions that will contribute 1 to Alex's score. Alex wants his score to be precisely A. Also, he does not want to take much help from Sam.
+
+Find and return the minimum number of times Alex needs to take help from Sam to achieve a score of A.
+
+2)  Finding Good Days: Using right shift operator
+
+Alex has a cat named Boomer. He decides to put his cat to the test for eternity.
+He starts on day 1 with one stash of food unit, every next day, the stash doubles.
+If Boomer is well behaved during a particular day, only then she receives food worth equal to the stash produced on that day.
+Boomer receives a net worth of A units of food. What is the number of days she received the stash?
+
+3) 5 power of instead of 2 power of:
+
+Given an integer A, find and return the Ath magic number.
+A magic number is defined as a number that can be expressed as a power of 5 or a sum of unique powers of 5.
+First few magic numbers are 5, 25, 30(5 + 25), 125, 130(125 + 5), ….
+
+4) Reverse bits:
+
+5) Intersting Array using XOR properties:
+
+You have an array A with N elements. We have two types of operation available on this array :
+We can split an element B into two elements, C and D, such that B = C + D.
+We can merge two elements, P and Q, to one element, R, such that R = P ^ Q i.e., XOR of P and Q.
+You have to determine whether it is possible to convert array A to size 1, containing a single element equal to 0 after several splits and/or merge?
