@@ -1,4 +1,4 @@
-package Day15;
+package Day16;
 
 public class PowerWithModulo {
     public int solve(int A, int B, int C) {
