@@ -1,0 +1,7 @@
+Application of Arithmetic Modulo will be in Hashing -> Mapping Infinite Tange to a finite Range
+
+0<=Remainder<Divisor
+Remainder=Dividend - (Divisor*Quotient); where Divisor*Quotient will be a highest multiple of divisor < Dividend
+
+Properties:
+(A*B)%m = (A%m *B%m)%m
