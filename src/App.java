@@ -42,6 +42,7 @@ import Day16.ModString;
 import Day17.FactorSort;
 import Day17.LargestNumber;
 import Day17.NobleInteger;
+import Day19.IsAlpha;
 import Day19.ReverseString;
 import Day19.SimpleReverse;
 import Day19.ToLower;
@@ -49,8 +50,8 @@ import Day19.ToUpper;
 
 public class App {
     public static void main(String[] args) throws Exception {
-        // var s1=new EvenNumberRange();
-        var A=new ArrayList<Character>(Arrays.asList( 'a'));
+        // var s1=new EvenNumberRange();Integer
+        var A=new ArrayList<Character>(Arrays.asList( 's', 'g', '7', 'A', 'd', 'v', 't', 'W', '4', 'A', '4', '2', '8', 'f', 'h', 'B', 'p', 'h', '7', '0', 'v', 'q', 'w', '9', 'o'));
         // // var B=new ArrayList<Integer>(Arrays.asList(1,2,3 ));
 
         ArrayList<ArrayList<Integer>> B=new ArrayList<ArrayList<Integer>>(new ArrayList<>());
@@ -64,37 +65,37 @@ public class App {
         // // B.add(6, new ArrayList<>(Arrays.asList(16, 36, 66, 90, 17, 55, 27, 26, 99, 59)));
         // // B.add(6, new ArrayList<>(Arrays.asList(67, 18, 65, 68, 87, 3, 28, 52, 9, 70)));
         // // B.add(6, new ArrayList<>(Arrays.asList(41, 19, 73, 5, 52, 96, 91, 10, 52, 21)));
-        var s1=new ToUpper();
+        var s1=new IsAlpha();
         // s1.diagonal(B);
         // ArrayList<Integer> A=new ArrayList<Integer>(Arrays.asList( 1, 0, 1, 1, 1, 1, 1, 1, 0, 0, 0, 1, 0, 1, 1, 1, 0, 1, 0, 1, 1, 1, 0, 0  ));
-        System.out.println("Result: " + s1.to_upper(A));
+        System.out.println("Result: " + s1.solve(A));
 
 
 
 
         // Scanner myObj = new Scanner(System.in);
         //   // Create a Scanner object
-        // System.out.println("N, M, Q: ");
+        // System.out.println('N, M, Q: ');
         // String line1 = myObj.nextLine();
-        // line1.replaceAll("\\s", "");
+        // line1.replaceAll('\\s', '');
         // int N=Character.getNumericValue(line1.charAt(0));
         // int M=Character.getNumericValue(line1.charAt(1));
         // int Q=Character.getNumericValue(line1.charAt(2));
-        // System.out.println("Query1: ");
+        // System.out.println('Query1: ');
         // String q1 = myObj.nextLine();
         // int C1=Character.getNumericValue(q1.charAt(0));
         // int C2=Character.getNumericValue(q1.charAt(1));
-        // System.out.println("Query2: ");
+        // System.out.println('Query2: ');
         // String q2 = myObj.nextLine();
         // int R1=Character.getNumericValue(q2.charAt(0));
         // int R2=Character.getNumericValue(q2.charAt(1));
-        // System.out.println("Query3: ");
+        // System.out.println('Query3: ');
         // String q3 = myObj.nextLine();
         // int X1=Character.getNumericValue(q3.charAt(0));
         // int Y1=Character.getNumericValue(q3.charAt(1));
         // int X2=Character.getNumericValue(q3.charAt(3));
         // int Y2=Character.getNumericValue(q3.charAt(4));
-        // System.out.println("Query4: ");
+        // System.out.println('Query4: ');
         // String q4 = myObj.nextLine();
         // int X3=Character.getNumericValue(q4.charAt(0));
         // int Y3=Character.getNumericValue(q4.charAt(1));
