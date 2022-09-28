@@ -42,6 +42,7 @@ import Day16.ModString;
 import Day17.FactorSort;
 import Day17.LargestNumber;
 import Day17.NobleInteger;
+import Day19.AmazingSubArray;
 import Day19.IsAlpha;
 import Day19.LongestPalindromicSubstring;
 import Day19.ReverseString;
@@ -66,10 +67,10 @@ public class App {
         // // B.add(6, new ArrayList<>(Arrays.asList(16, 36, 66, 90, 17, 55, 27, 26, 99, 59)));
         // // B.add(6, new ArrayList<>(Arrays.asList(67, 18, 65, 68, 87, 3, 28, 52, 9, 70)));
         // // B.add(6, new ArrayList<>(Arrays.asList(41, 19, 73, 5, 52, 96, 91, 10, 52, 21)));
-        var s1=new LongestPalindromicSubstring();
+        var s1=new AmazingSubArray();
         // s1.diagonal(B);
         // ArrayList<Integer> A=new ArrayList<Integer>(Arrays.asList( 1, 0, 1, 1, 1, 1, 1, 1, 0, 0, 0, 1, 0, 1, 1, 1, 0, 1, 0, 1, 1, 1, 0, 0  ));
-        System.out.println("Result: " + s1.longestPalindrome("acbaac"));
+        System.out.println("Result: " + s1.solve("ABEC"));
 
 
 
