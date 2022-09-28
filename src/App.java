@@ -49,16 +49,18 @@ import Day19.ReverseString;
 import Day19.SimpleReverse;
 import Day19.ToLower;
 import Day19.ToUpper;
+import Day20.CommonElements;
+import Day20.FirstRepeatingElements;
 
 public class App {
     public static void main(String[] args) throws Exception {
         // var s1=new EvenNumberRange();Integer
-        var A=new ArrayList<Character>(Arrays.asList( 's', 'g', '7', 'A', 'd', 'v', 't', 'W', '4', 'A', '4', '2', '8', 'f', 'h', 'B', 'p', 'h', '7', '0', 'v', 'q', 'w', '9', 'o'));
-        // // var B=new ArrayList<Integer>(Arrays.asList(1,2,3 ));
+        var A=new ArrayList<Integer>(Arrays.asList( 10, 5, 3, 4, 3, 5, 6));
+        var B=new ArrayList<Integer>(Arrays.asList(3, 6, 2, 10, 10));
 
-        ArrayList<ArrayList<Integer>> B=new ArrayList<ArrayList<Integer>>(new ArrayList<>());
-        B.add(0, new ArrayList<>(Arrays.asList(2,6)));
-        B.add(1, new ArrayList<>(Arrays.asList(4,7)));
+        // ArrayList<ArrayList<Integer>> B=new ArrayList<ArrayList<Integer>>(new ArrayList<>());
+        // B.add(0, new ArrayList<>(Arrays.asList(2,6)));
+        // B.add(1, new ArrayList<>(Arrays.asList(4,7)));
         // B.add(1, new ArrayList<>(Arrays.asList(6,7)));
         // // B.add(2, new ArrayList<>(Arrays.asList(61, 22, 23, 68, 23, 73, 85, 91, 25, 7)));
         // // B.add(3, new ArrayList<>(Arrays.asList(6, 83, 22, 81, 89, 85, 56, 43, 32, 89)));
@@ -67,10 +69,10 @@ public class App {
         // // B.add(6, new ArrayList<>(Arrays.asList(16, 36, 66, 90, 17, 55, 27, 26, 99, 59)));
         // // B.add(6, new ArrayList<>(Arrays.asList(67, 18, 65, 68, 87, 3, 28, 52, 9, 70)));
         // // B.add(6, new ArrayList<>(Arrays.asList(41, 19, 73, 5, 52, 96, 91, 10, 52, 21)));
-        var s1=new AmazingSubArray();
+        var s1=new FirstRepeatingElements();
         // s1.diagonal(B);
         // ArrayList<Integer> A=new ArrayList<Integer>(Arrays.asList( 1, 0, 1, 1, 1, 1, 1, 1, 0, 0, 0, 1, 0, 1, 1, 1, 0, 1, 0, 1, 1, 1, 0, 0  ));
-        System.out.println("Result: " + s1.solve("ABEC"));
+        System.out.println("Result: " + s1.solve(A));
 
 
 
