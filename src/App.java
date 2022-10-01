@@ -43,21 +43,28 @@ import Day17.FactorSort;
 import Day17.LargestNumber;
 import Day17.NobleInteger;
 import Day19.AmazingSubArray;
+import Day19.ChangeCharacter;
+import Day19.CountOccurance;
 import Day19.IsAlpha;
 import Day19.LongestPalindromicSubstring;
 import Day19.ReverseString;
 import Day19.SimpleReverse;
 import Day19.ToLower;
 import Day19.ToUpper;
+import Day20.CheckPalindrome2;
+import Day20.ColorfulNumber;
 import Day20.CommonElements;
 import Day20.FirstRepeatingElements;
+import Day20.KOccurances;
 import Day20.ShaggyAndDistance;
 import Day20.SubArrayWithZeroSum;
+import Day21.Diffk;
+import Day21.DistinctNumbersInWindow;
 
 public class App {
     public static void main(String[] args) throws Exception {
         // var s1=new EvenNumberRange();Integer
-        var A=new ArrayList<Integer>(Arrays.asList( 1,1));
+        var A=new ArrayList<Integer>(Arrays.asList( 38, 75, 40, 75, 75, 38, 38, 98, 38, 75 ));
         var B=new ArrayList<Integer>(Arrays.asList(3, 6, 2, 10, 10));
 
         // ArrayList<ArrayList<Integer>> B=new ArrayList<ArrayList<Integer>>(new ArrayList<>());
@@ -71,10 +78,10 @@ public class App {
         // // B.add(6, new ArrayList<>(Arrays.asList(16, 36, 66, 90, 17, 55, 27, 26, 99, 59)));
         // // B.add(6, new ArrayList<>(Arrays.asList(67, 18, 65, 68, 87, 3, 28, 52, 9, 70)));
         // // B.add(6, new ArrayList<>(Arrays.asList(41, 19, 73, 5, 52, 96, 91, 10, 52, 21)));
-        var s1=new ShaggyAndDistance();
+        var s1=new DistinctNumbersInWindow();
         // s1.diagonal(B);
         // ArrayList<Integer> A=new ArrayList<Integer>(Arrays.asList( 1, 0, 1, 1, 1, 1, 1, 1, 0, 0, 0, 1, 0, 1, 1, 1, 0, 1, 0, 1, 1, 1, 0, 0  ));
-        System.out.println("Result: " + s1.solve(A));
+        System.out.println("Result: " + s1.dNums(A,2));
 
 
 
