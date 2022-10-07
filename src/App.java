@@ -70,7 +70,7 @@ import Day22.FindFibboNum;
 public class App {
     public static void main(String[] args) throws Exception {
         // var s1=new EvenNumberRange();Integer
-        var A=new ArrayList<Integer>(Arrays.asList( -10,-10,-10));
+        var A=new ArrayList<Integer>(Arrays.asList(  4, 7, -4, 2, 2, 2, 3, -5, -3, 9, -4, 9, -7, 7, -1, 9, 9, 4, 1, -4, -2, 3, -3, -5, 4, -7, 7, 9, -4, 4, -8  ));
         var B=new ArrayList<Integer>(Arrays.asList(3, 6, 2, 10, 10));
 
         // ArrayList<ArrayList<Integer>> B=new ArrayList<ArrayList<Integer>>(new ArrayList<>());
@@ -84,10 +84,10 @@ public class App {
         // // B.add(6, new ArrayList<>(Arrays.asList(16, 36, 66, 90, 17, 55, 27, 26, 99, 59)));
         // // B.add(6, new ArrayList<>(Arrays.asList(67, 18, 65, 68, 87, 3, 28, 52, 9, 70)));
         // // B.add(6, new ArrayList<>(Arrays.asList(41, 19, 73, 5, 52, 96, 91, 10, 52, 21)));
-        var s1=new FindFibboNum();
+        var s1=new TwoSum();
         // s1.diagonal(B);
         // ArrayList<Integer> A=new ArrayList<Integer>(Arrays.asList( 1, 0, 1, 1, 1, 1, 1, 1, 0, 0, 0, 1, 0, 1, 1, 1, 0, 1, 0, 1, 1, 1, 0, 0  ));
-        System.out.println("Result: " + s1.findAthFibonacci(4));
+        System.out.println("Result: " + s1.twoSum(A,-3));
 
 
 
