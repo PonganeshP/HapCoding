@@ -69,6 +69,7 @@ import Day22.FindFibboNum;
 
 public class App {
     public static void main(String[] args) throws Exception {
+        
         // var s1=new EvenNumberRange();Integer
         var A=new ArrayList<Integer>(Arrays.asList(  4, 7, -4, 2, 2, 2, 3, -5, -3, 9, -4, 9, -7, 7, -1, 9, 9, 4, 1, -4, -2, 3, -3, -5, 4, -7, 7, 9, -4, 4, -8  ));
         var B=new ArrayList<Integer>(Arrays.asList(3, 6, 2, 10, 10));
