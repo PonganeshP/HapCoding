@@ -46,11 +46,9 @@ import Day19.AmazingSubArray;
 import Day19.ChangeCharacter;
 import Day19.CountOccurance;
 import Day19.IsAlpha;
-import Day19.LongestCommonPrefix;
 import Day19.LongestPalindromicSubstring;
 import Day19.ReverseString;
 import Day19.SimpleReverse;
-import Day19.StringOperations;
 import Day19.ToLower;
 import Day19.ToUpper;
 import Day20.CheckPalindrome2;
@@ -62,11 +60,8 @@ import Day20.ShaggyAndDistance;
 import Day20.SubArrayWithZeroSum;
 import Day21.Diffk;
 import Day21.DistinctNumbersInWindow;
-import Day21.SubArrayWithGivenSum;
-import Day21.TwoSum;
-import Day22.CheckPallindrome;
-import Day22.FindFibboNum;
 import Day23.IsMagic;
+import Day23.PowerFunction;
 import Day23.SumOfDigits;
 
 public class App {
@@ -87,10 +82,10 @@ public class App {
         // // B.add(6, new ArrayList<>(Arrays.asList(16, 36, 66, 90, 17, 55, 27, 26, 99, 59)));
         // // B.add(6, new ArrayList<>(Arrays.asList(67, 18, 65, 68, 87, 3, 28, 52, 9, 70)));
         // // B.add(6, new ArrayList<>(Arrays.asList(41, 19, 73, 5, 52, 96, 91, 10, 52, 21)));
-        var s1=new IsMagic();
+        var s1=new PowerFunction();
         // s1.diagonal(B);
         // ArrayList<Integer> A=new ArrayList<Integer>(Arrays.asList( 1, 0, 1, 1, 1, 1, 1, 1, 0, 0, 0, 1, 0, 1, 1, 1, 0, 1, 0, 1, 1, 1, 0, 0  ));
-        System.out.println("Result: " + s1.solve(83557));
+        System.out.println("Result: " + s1.pow(-1, 1, 20));
 
 
 
