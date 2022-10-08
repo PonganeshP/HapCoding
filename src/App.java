@@ -61,6 +61,7 @@ import Day20.SubArrayWithZeroSum;
 import Day21.Diffk;
 import Day21.DistinctNumbersInWindow;
 import Day23.IsMagic;
+import Day23.KthSymbol;
 import Day23.PowerFunction;
 import Day23.SumOfDigits;
 
@@ -82,10 +83,10 @@ public class App {
         // // B.add(6, new ArrayList<>(Arrays.asList(16, 36, 66, 90, 17, 55, 27, 26, 99, 59)));
         // // B.add(6, new ArrayList<>(Arrays.asList(67, 18, 65, 68, 87, 3, 28, 52, 9, 70)));
         // // B.add(6, new ArrayList<>(Arrays.asList(41, 19, 73, 5, 52, 96, 91, 10, 52, 21)));
-        var s1=new PowerFunction();
+        var s1=new KthSymbol();
         // s1.diagonal(B);
         // ArrayList<Integer> A=new ArrayList<Integer>(Arrays.asList( 1, 0, 1, 1, 1, 1, 1, 1, 0, 0, 0, 1, 0, 1, 1, 1, 0, 1, 0, 1, 1, 1, 0, 0  ));
-        System.out.println("Result: " + s1.pow(-1, 1, 20));
+        System.out.println("Result: " + s1.solve(9,175));
 
 
 
