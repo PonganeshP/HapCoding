@@ -62,6 +62,7 @@ import Day21.Diffk;
 import Day21.DistinctNumbersInWindow;
 import Day21.IsDict;
 import Day21.PairXOR;
+import Day21.SubArraySumEquals;
 import Day23.IsMagic;
 import Day23.KthSymbol;
 import Day23.PowerFunction;
@@ -71,7 +72,7 @@ public class App {
     public static void main(String[] args) throws Exception {
         
         // var s1=new EvenNumberRange();Integer
-        var A=new ArrayList<Integer>(Arrays.asList(  5, 4, 10, 15, 7, 6,10 ));
+        var A=new ArrayList<Integer>(Arrays.asList(  9, 4, 20, 3, 10, 5 ));
         var B=new ArrayList<String>(Arrays.asList("fine", "none", "no"));
 
         // ArrayList<ArrayList<Integer>> B=new ArrayList<ArrayList<Integer>>(new ArrayList<>());
@@ -85,10 +86,10 @@ public class App {
         // // B.add(6, new ArrayList<>(Arrays.asList(16, 36, 66, 90, 17, 55, 27, 26, 99, 59)));
         // // B.add(6, new ArrayList<>(Arrays.asList(67, 18, 65, 68, 87, 3, 28, 52, 9, 70)));
         // // B.add(6, new ArrayList<>(Arrays.asList(41, 19, 73, 5, 52, 96, 91, 10, 52, 21)));
-        var s1=new IsDict();
+        var s1=new SubArraySumEquals();
         // s1.diagonal(B);
         // ArrayList<Integer> A=new ArrayList<Integer>(Arrays.asList( 1, 0, 1, 1, 1, 1, 1, 1, 0, 0, 0, 1, 0, 1, 1, 1, 0, 1, 0, 1, 1, 1, 0, 0  ));
-        System.out.println("Result: " + s1.solve(B,"qwertyuiopasdfghjklzxcvbnm"));
+        System.out.println("Result: " + s1.solve(A,33));
 
 
 
