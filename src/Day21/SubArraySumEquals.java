@@ -12,9 +12,9 @@ public class SubArraySumEquals {
  
         for (int i = 0; i < A.size(); i++) {
             cSum += A.get(i);
-            int removeSum=cSum-B;
-            if (prevSum.containsKey(removeSum))
-                result += prevSum.get(removeSum);
+            int rSum=cSum-B;
+            if (prevSum.containsKey(rSum))
+                result += prevSum.get(rSum);
             prevSum.put(cSum,prevSum.getOrDefault(cSum,0)+1);
         }
  
