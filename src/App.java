@@ -58,6 +58,7 @@ import Day20.FirstRepeatingElements;
 import Day20.KOccurances;
 import Day20.ShaggyAndDistance;
 import Day20.SubArrayWithZeroSum;
+import Day21.CountPairDiff;
 import Day21.CountPairSum;
 import Day21.Diffk;
 import Day21.DistinctNumbersInWindow;
@@ -73,7 +74,7 @@ public class App {
     public static void main(String[] args) throws Exception {
         
         // var s1=new EvenNumberRange();Integer
-        var A=new ArrayList<Integer>(Arrays.asList(  1, 2, 1, 2));
+        var A=new ArrayList<Integer>(Arrays.asList(  731, 115, 700, 156, 851, 461, 924, 324, 574, 852, 573, 536, 329, 409, 70, 116, 268, 360, 857, 791, 667, 563, 979, 484, 191, 920, 984, 666, 11, 862, 580, 92, 329, 84, 763, 514, 210, 603, 962, 350, 745, 663, 635, 400, 761, 937, 733, 411, 146, 328, 658, 965, 312, 155, 504, 411, 276, 768, 633, 643, 49, 649, 986, 672, 400, 202, 511, 505, 741, 548, 798, 698, 775, 893, 815, 697, 60, 910, 323, 458, 706, 243, 138, 772, 911, 943, 147, 810, 643, 877, 544, 963, 825, 672, 479, 267, 738, 876, 170, 920, 977, 722, 504, 669, 823, 72, 378, 954, 897, 223, 47, 530, 269, 124, 384, 563, 417, 807, 204, 802, 996, 230, 989, 476, 867, 291, 378, 190, 957, 66, 75, 543, 288, 741, 128, 937, 658, 392, 107, 667, 592, 100, 905, 273, 178, 8, 36, 354, 765, 11, 644, 793, 768, 676, 129, 582, 967, 483, 139, 714, 451, 5, 747, 982, 904, 659, 103, 508, 574, 347, 841, 220, 713, 278, 249, 233, 737, 832, 127, 802, 371, 116, 810, 9, 341, 493, 811, 351, 870, 662, 402, 62, 916, 179, 688, 718, 4, 46, 508, 449, 141, 739, 223, 590, 205, 772, 799, 745, 971, 557, 919, 482, 931, 577, 238, 514, 782, 555, 220, 745, 407, 46, 952, 691, 254, 318, 68, 966, 609, 445, 831, 181, 294, 151, 482, 64, 147, 766, 324, 634, 151, 958, 150, 290, 693, 730, 256, 570, 504, 518, 122, 171, 282, 570, 604, 623, 787, 157, 398, 582, 737, 368, 472, 402, 314, 663, 28, 578, 411, 172, 575, 770, 132, 4, 68, 594, 370, 87, 224, 203, 164, 668, 375, 957, 479, 315, 110, 948, 658, 961, 263, 358, 346, 80, 736, 814, 87, 684));
         var B=new ArrayList<String>(Arrays.asList("fine", "none", "no"));
 
         // ArrayList<ArrayList<Integer>> B=new ArrayList<ArrayList<Integer>>(new ArrayList<>());
@@ -87,10 +88,10 @@ public class App {
         // // B.add(6, new ArrayList<>(Arrays.asList(16, 36, 66, 90, 17, 55, 27, 26, 99, 59)));
         // // B.add(6, new ArrayList<>(Arrays.asList(67, 18, 65, 68, 87, 3, 28, 52, 9, 70)));
         // // B.add(6, new ArrayList<>(Arrays.asList(41, 19, 73, 5, 52, 96, 91, 10, 52, 21)));
-        var s1=new CountPairSum();
+        var s1=new CountPairDiff();
         // s1.diagonal(B);
         // ArrayList<Integer> A=new ArrayList<Integer>(Arrays.asList( 1, 0, 1, 1, 1, 1, 1, 1, 0, 0, 0, 1, 0, 1, 1, 1, 0, 1, 0, 1, 1, 1, 0, 0  ));
-        System.out.println("Result: " + s1.solve(A,3));
+        System.out.println("Result: " + s1.solve(A,364));
 
 
 
