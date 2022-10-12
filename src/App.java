@@ -63,6 +63,7 @@ import Day21.CountPairSum;
 import Day21.Diffk;
 import Day21.DistinctNumbersInWindow;
 import Day21.IsDict;
+import Day21.IsValidSudoku;
 import Day21.LongestSubArrayZeroSum;
 import Day21.PairXOR;
 import Day21.SubArraySumEquals;
@@ -76,7 +77,7 @@ public class App {
         
         // var s1=new EvenNumberRange();Integer
         var A=new ArrayList<Integer>(Arrays.asList(  -16, 16, 3));
-        var B=new ArrayList<String>(Arrays.asList("fine", "none", "no"));
+        var B=new ArrayList<String>(Arrays.asList("53..7....", "6..195...", ".98....6.", "8...6...3", "4..8.3..1", "7...2...6", ".6....28.", "...419..5", "....8..79"));
 
         // ArrayList<ArrayList<Integer>> B=new ArrayList<ArrayList<Integer>>(new ArrayList<>());
         // B.add(0, new ArrayList<>(Arrays.asList(2,6)));
@@ -89,10 +90,10 @@ public class App {
         // // B.add(6, new ArrayList<>(Arrays.asList(16, 36, 66, 90, 17, 55, 27, 26, 99, 59)));
         // // B.add(6, new ArrayList<>(Arrays.asList(67, 18, 65, 68, 87, 3, 28, 52, 9, 70)));
         // // B.add(6, new ArrayList<>(Arrays.asList(41, 19, 73, 5, 52, 96, 91, 10, 52, 21)));
-        var s1=new LongestSubArrayZeroSum();
+        var s1=new IsValidSudoku();
         // s1.diagonal(B);
         // ArrayList<Integer> A=new ArrayList<Integer>(Arrays.asList( 1, 0, 1, 1, 1, 1, 1, 1, 0, 0, 0, 1, 0, 1, 1, 1, 0, 1, 0, 1, 1, 1, 0, 0  ));
-        System.out.println("Result: " + s1.solve(A));
+        System.out.println("Result: " + s1.isValidSudoku(B));
 
 
 
