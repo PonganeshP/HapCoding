@@ -4,79 +4,14 @@ import java.util.Arrays;
 import java.util.List;
 import java.util.Scanner;
 
-import Contest.Q1;
-import Contest.Q3;
-import Day02.IsPrime;
-import Day05.ArrayRotation;
-import Day05.GreaterThanItself;
-import Day05.RangeSumQuery;
-import Day05.Reverse;
-import Day05.ReverseRange;
-import Day05.SecondLargest;
-import Day05.TimeEquality;
-import Day06.EquillibriumArray;
-import Day06.EvenNumberRange;
-import Day06.RangeSumPrefix;
-import Day07.AGsubsequence;
-import Day07.Bulb;
-import Day07.BuySellStock;
-import Day07.ClosestMinMax;
-import Day07.EvenArrays;
-import Day07.PickBothSides;
-import Day09.RowToColumZero;
-import Day10.MultiLeftRotate;
-import Day10.SlidingWindow2;
-import Day10.SpiralPrint;
-import Day10.SubArrayLeastAvg;
-import Day11.ChristmasTrees;
-import Day11.ConsecutiveOne;
-import Day11.MaximumPositivity;
-import Day12.NbyThreeRepeat;
-import Day12.SpecialIndex;
-import Day13.DecimalToAnyBase;
-import Day13.SubArraysWithBitwiseOrOne;
-import Day14.ReverseBits;
-import Day14.UnsetXbitsfromRight;
-import Day16.DivisibilityByEight;
-import Day16.ModString;
-import Day17.FactorSort;
-import Day17.LargestNumber;
-import Day17.NobleInteger;
-import Day19.AmazingSubArray;
-import Day19.ChangeCharacter;
-import Day19.CountOccurance;
-import Day19.IsAlpha;
-import Day19.LongestPalindromicSubstring;
-import Day19.ReverseString;
-import Day19.SimpleReverse;
-import Day19.ToLower;
-import Day19.ToUpper;
-import Day20.CheckPalindrome2;
-import Day20.ColorfulNumber;
-import Day20.CommonElements;
-import Day20.FirstRepeatingElements;
-import Day20.KOccurances;
-import Day20.ShaggyAndDistance;
-import Day20.SubArrayWithZeroSum;
-import Day21.CountPairDiff;
-import Day21.CountPairSum;
-import Day21.Diffk;
-import Day21.DistinctNumbersInWindow;
-import Day21.IsDict;
 import Day21.IsValidSudoku;
-import Day21.LongestSubArrayZeroSum;
-import Day21.PairXOR;
-import Day21.SubArraySumEquals;
-import Day23.IsMagic;
-import Day23.KthSymbol;
-import Day23.PowerFunction;
-import Day23.SumOfDigits;
+
 
 public class App {
     public static void main(String[] args) throws Exception {
         
         // var s1=new EvenNumberRange();Integer
-        var A=new ArrayList<Integer>(Arrays.asList(  -16, 16, 3));
+        var A=new ArrayList<Integer>(Arrays.asList( -16,null));
         var B=new ArrayList<String>(Arrays.asList("53..7....", "6..195...", ".98....6.", "8...6...3", "4..8.3..1", "7...2...6", ".6....28.", "...419..5", "....8..79"));
 
         // ArrayList<ArrayList<Integer>> B=new ArrayList<ArrayList<Integer>>(new ArrayList<>());
