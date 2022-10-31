@@ -3,6 +3,8 @@ package LeetCode;
 import java.util.HashMap;
 import java.util.Map;
 
+//Two sum
+
 public class L1 {
     public int[] twoSum(int[] nums, int target) {
         Map<Integer,Integer> hm=new HashMap<>();
