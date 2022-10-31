@@ -1,13 +1,37 @@
-public int[] plusOne(int[] A) {
-    for (int i = A.length - 1; i >= 0; i--) {
-	     if (A[i] < 9) {
-		      A[i]++;
-		      return A;
-	      }
-	     A[i] = 0;
-     }
+package Advanced.Day_28_Arrays_1;
 
-     A = new int[A.length + 1];
-     A[0] = 1;
-     return A;
+import java.util.ArrayList;
+import java.util.Collections;
+
+public class AddOne {
+    public ArrayList<Integer> plusOne(ArrayList<Integer> A) {
+        ArrayList<Integer> resArray=new ArrayList<>();
+        Collections.reverse(A);
+        int carry=1;
+        for(int i=0;i<A.size();i++){
+            if(A.get(i)==9 && carry==1){
+                resArray.add(0);
+                carry=1;
+            }
+            else{
+                resArray.add(A.get(i)+carry);
+                carry=0;
+            }
+        }
+        if(carry==1){
+            resArray.add(carry);
+        }
+        Collections.reverse(resArray);
+        for(int i=0;i<resArray.size();i++){
+            if(resArray.get(0)==0){
+                resArray.remove(0);
+            }
+            else{
+                break;
+            }
+        }
+        return resArray;
     }
+}
+
+
