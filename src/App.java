@@ -4,6 +4,7 @@ import java.util.Arrays;
 import java.util.List;
 import java.util.Scanner;
 
+import Advanced.Day_28_Arrays_1.ContinuosSumQuery;
 import Day21.IsValidSudoku;
 import LeetCode.ContinuousSubArraySum;
 
@@ -12,7 +13,7 @@ public class App {
     public static void main(String[] args) throws Exception {
         
         // var s1=new EvenNumberRange();Integer
-        int[] nums={0,0};
+        int[][] A={{1,2,10},{2,3,20},{2,5,25}};
         // var A=new ArrayList<Integer>(Arrays.asList( -16,null));
         var B=new ArrayList<String>(Arrays.asList("53..7....", "6..195...", ".98....6.", "8...6...3", "4..8.3..1", "7...2...6", ".6....28.", "...419..5", "....8..79"));
 
@@ -27,10 +28,10 @@ public class App {
         // // B.add(6, new ArrayList<>(Arrays.asList(16, 36, 66, 90, 17, 55, 27, 26, 99, 59)));
         // // B.add(6, new ArrayList<>(Arrays.asList(67, 18, 65, 68, 87, 3, 28, 52, 9, 70)));
         // // B.add(6, new ArrayList<>(Arrays.asList(41, 19, 73, 5, 52, 96, 91, 10, 52, 21)));
-        var s1=new ContinuousSubArraySum();
+        var s1=new ContinuosSumQuery();
         // s1.diagonal(B);
         // ArrayList<Integer> A=new ArrayList<Integer>(Arrays.asList( 1, 0, 1, 1, 1, 1, 1, 1, 0, 0, 0, 1, 0, 1, 1, 1, 0, 1, 0, 1, 1, 1, 0, 0  ));
-        System.out.println("Result: " + s1.checkSubarraySum(nums, 1));
+        System.out.println("Result: " + Arrays.toString(s1.solve(5, A)));
 
 
 
