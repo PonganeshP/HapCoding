@@ -6,7 +6,7 @@ import java.util.Scanner;
 
 import Advanced.Day_28_Arrays_1.ContinuosSumQuery;
 import Day21.IsValidSudoku;
-import LeetCode.ContinuousSubArraySum;
+import LeetCode.L523;
 
 
 public class App {

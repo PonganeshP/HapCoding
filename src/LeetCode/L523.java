@@ -3,7 +3,7 @@ package LeetCode;
 import java.util.HashMap;
 import java.util.Map;
 
-public class ContinuousSubArraySum {
+public class L523 {
     public boolean checkSubarraySum(int[] nums, int k) {
         Map<Integer, Integer> hashMap = new HashMap<>(Map.of(0, 0));
         int sum = 0;

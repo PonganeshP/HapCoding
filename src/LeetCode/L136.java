@@ -3,7 +3,7 @@ package LeetCode;
 
 // find unique number using exor operator
 
-public class SingleNum {
+public class L136 {
     class Solution {
         public int singleNumber(int[] nums) {
             int ans=0;
