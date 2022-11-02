@@ -1,5 +1,21 @@
 package Advanced.Day_29_Arrays_2;
 
+/*
+ * Problem Description
+Given a row-wise and column-wise sorted matrix A of size N * M.
+Return the maximum non-empty submatrix sum of this matrix.
+
+Example Input
+Input 1:-
+    -5 -4 -3
+A = -1  2  3
+     2  2  4
+
+Example Output
+Output 1:-
+12
+ */
+
 public class MaxSubMatrixSum {
     public long solve(int[][] A) {
         int N=A.length;

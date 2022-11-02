@@ -1,6 +1,32 @@
 package Advanced.Day_29_Arrays_2;
 
-import java.util.ArrayList;
+/*
+ * Problem Description
+Given a matrix of integers A of size N x M and multiple queries Q, for each query, find and return the submatrix sum.
+
+Inputs to queries are top left (b, c) and bottom right (d, e) indexes of submatrix whose sum is to find out.
+
+NOTE:
+
+Rows are numbered from top to bottom, and columns are numbered from left to right.
+Sum may be large, so return the answer mod 109 + 7.
+
+Example Input
+Input 1:
+
+ A = [   [1, 2, 3]
+         [4, 5, 6]
+         [7, 8, 9]   ]
+ B = [1, 2]
+ C = [1, 2]
+ D = [2, 3]
+ E = [2, 3]
+
+ Example Output
+Output 1:
+
+ [12, 28]
+ */
 
 public class SubMatrixSumQuery {
     public int[] solve(int[][] A, int[] B, int[] C, int[] D, int[] E) {
