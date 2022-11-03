@@ -5,6 +5,20 @@ import java.util.Collections;
 import java.util.Comparator;
 import java.util.Stack;
 
+/*
+ * Problem Description
+Given a collection of intervals, merge all overlapping intervals.
+
+Example Input
+Input 1:
+
+[1,3],[2,6],[8,10],[15,18]
+
+Example Output
+Output 1:
+
+[1,6],[8,10],[15,18]
+ */
 
 
 public class MergeOverLap {
