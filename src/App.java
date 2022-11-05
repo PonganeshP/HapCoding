@@ -10,6 +10,7 @@ import Advanced.Day_29_Arrays_2.MaxSubMatrixSum;
 import Advanced.Day_29_Arrays_2.SubMatrixSumQuery;
 import Advanced.Day_30_Arrays_3.MergeIntervals;
 import Advanced.Day_30_Arrays_3.TrapWater;
+import Advanced.Day_31_BitManipulation_1.SingleNumber;
 import Day21.IsValidSudoku;
 import LeetCode.L1131;
 import LeetCode.L41;
@@ -23,7 +24,7 @@ public class App {
         
         // var s1=new EvenNumberRange();Integer
         int[][] A={{1,4},{0,0}};
-        int[] B = {3,4,-1,1};
+        int[] B = {1,1,1,2,2,2,3,3,3,10};
         int[] C = {0,-2,-1,-7,-4};
         int[] D = {2, 3};
         int[] E = {2, 3};
@@ -41,10 +42,10 @@ public class App {
         // // B.add(6, new ArrayList<>(Arrays.asList(16, 36, 66, 90, 17, 55, 27, 26, 99, 59)));
         // // B.add(6, new ArrayList<>(Arrays.asList(67, 18, 65, 68, 87, 3, 28, 52, 9, 70)));
         // // B.add(6, new ArrayList<>(Arrays.asList(41, 19, 73, 5, 52, 96, 91, 10, 52, 21)));
-        var s1=new L41();
+        var s1=new SingleNumber();
         // s1.diagonal(B);
         // ArrayList<Integer> A=new ArrayList<Integer>(Arrays.asList( 1, 0, 1, 1, 1, 1, 1, 1, 0, 0, 0, 1, 0, 1, 1, 1, 0, 1, 0, 1, 1, 1, 0, 0  ));
-        System.out.println("Result: " + s1.firstMissingPositive(B));
+        System.out.println("Result: " + s1.singleNumber(B));
 
 
 
