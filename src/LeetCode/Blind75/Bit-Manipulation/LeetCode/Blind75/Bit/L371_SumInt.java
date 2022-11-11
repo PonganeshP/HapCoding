@@ -1,4 +1,10 @@
 public class L371_SumInt {
+
+    /*
+     * without using +,-
+     * return (b==0)?a:getSum((a^b),(a&b)<<1);
+     * 
+     */
     public int getSum(int a, int b) {
         int ans=0;
         int carry=0;
