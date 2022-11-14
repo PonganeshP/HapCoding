@@ -36,6 +36,8 @@ No value greater than M = 5, satisfies the condition.
 
 */
 
+
+//Largest value of M
 public class GCD {
     public int solve(int A, int B) {
         int max=Math.max(A,B);
