@@ -1,3 +1,5 @@
+package LeetCode.Blind75.Bit_Manipulation;
+
 public class L371_SumInt {
 
     /*

@@ -1,4 +1,4 @@
-
+package LeetCode.Blind75.Bit_Manipulation;
 
 public class L191_NoOfSetBits {
     public int hammingWeight(int n) {
