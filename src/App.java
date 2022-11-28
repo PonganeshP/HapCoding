@@ -22,6 +22,7 @@ import Advanced.Day_33_Modular_Arithmatic.VeryLargePower;
 import Advanced.Day_34_GCD.AllGCDPairs;
 import Advanced.Day_34_GCD.DeleteOne;
 import Advanced.Day_35_PrimeNumber.CountDivisor;
+import Advanced.Day_36_Combinatronics.ComputeNCR;
 import Advanced.Day_37_Recursion.MagicNumber;
 import Contest.G2;
 import Day13.InterestingArray;
@@ -34,7 +35,18 @@ import LeetCode.L56;
 
 
 public class App {
+    public static String reverse(String s){
+        if(s.length()==0){
+            return "";
+        }
+        return s.charAt(s.length()-1)+reverse(s.substring(0, s.length()-1));
+    }
     public static void main(String[] args) throws Exception {
+        Scanner sc=new Scanner(System.in);
+        String inp=sc.nextLine();
+        String res=reverse(inp);
+        System.out.println(res);
+
         
         
         // var s1=new EvenNumberRange();Integer
@@ -57,10 +69,10 @@ public class App {
         // // B.add(6, new ArrayList<>(Arrays.asList(16, 36, 66, 90, 17, 55, 27, 26, 99, 59)));
         // // B.add(6, new ArrayList<>(Arrays.asList(67, 18, 65, 68, 87, 3, 28, 52, 9, 70)));
         // // B.add(6, new ArrayList<>(Arrays.asList(41, 19, 73, 5, 52, 96, 91, 10, 52, 21)));
-        var s1=new AllGCDPairs();
+        var s1=new ComputeNCR();
         // s1.diagonal(B);
         // ArrayList<Integer> A=new ArrayList<Integer>(Arrays.asList( 1, 0, 1, 1, 1, 1, 1, 1, 0, 0, 0, 1, 0, 1, 1, 1, 0, 1, 0, 1, 1, 1, 0, 0  ));
-        System.out.println("Result: " + s1.solve(A));
+        System.out.println("Result: " + s1.solve(38,5,81));
 
 
 
