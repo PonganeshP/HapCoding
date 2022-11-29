@@ -7,6 +7,7 @@ import java.util.Scanner;
 import Advanced.Day_28_Arrays_1.ContinuosSumQuery;
 import Advanced.Day_28_Arrays_1.Flip;
 import Advanced.Day_29_Arrays_2.MaxSubMatrixSum;
+import Advanced.Day_29_Arrays_2.MinimumSwaps;
 import Advanced.Day_29_Arrays_2.SubMatrixSumQuery;
 import Advanced.Day_30_Arrays_3.MergeIntervals;
 import Advanced.Day_30_Arrays_3.NextPermutation;
@@ -35,23 +36,10 @@ import LeetCode.L56;
 
 
 public class App {
-    public static String reverse(String s){
-        if(s.length()==0){
-            return "";
-        }
-        return s.charAt(s.length()-1)+reverse(s.substring(0, s.length()-1));
-    }
     public static void main(String[] args) throws Exception {
-        Scanner sc=new Scanner(System.in);
-        String inp=sc.nextLine();
-        String res=reverse(inp);
-        System.out.println(res);
-
-        
-        
         // var s1=new EvenNumberRange();Integer
         // int[][] A={{1,4},{0,0}};
-        int[] B = { 10,20};
+        int[] B = { 1, 12, 10, 3, 14, 10, 5};
         int[] C = {0,-2,-1,-7,-4};
         int[] D = {2, 3};
         int[] E = {2, 3};
@@ -69,10 +57,10 @@ public class App {
         // // B.add(6, new ArrayList<>(Arrays.asList(16, 36, 66, 90, 17, 55, 27, 26, 99, 59)));
         // // B.add(6, new ArrayList<>(Arrays.asList(67, 18, 65, 68, 87, 3, 28, 52, 9, 70)));
         // // B.add(6, new ArrayList<>(Arrays.asList(41, 19, 73, 5, 52, 96, 91, 10, 52, 21)));
-        var s1=new ComputeNCR();
+        var s1=new MinimumSwaps();
         // s1.diagonal(B);
         // ArrayList<Integer> A=new ArrayList<Integer>(Arrays.asList( 1, 0, 1, 1, 1, 1, 1, 1, 0, 0, 0, 1, 0, 1, 1, 1, 0, 1, 0, 1, 1, 1, 0, 0  ));
-        System.out.println("Result: " + s1.solve(38,5,81));
+        System.out.println("Result: " + s1.solve(B,8));
 
 
 
