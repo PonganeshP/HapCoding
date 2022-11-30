@@ -8,6 +8,8 @@ import Advanced.Day_28_Arrays_1.ContinuosSumQuery;
 import Advanced.Day_28_Arrays_1.Flip;
 import Advanced.Day_29_Arrays_2.MaxSubMatrixSum;
 import Advanced.Day_29_Arrays_2.MinimumSwaps;
+import Advanced.Day_29_Arrays_2.SortMinimumSwap;
+import Advanced.Day_29_Arrays_2.SpiralMatrix;
 import Advanced.Day_29_Arrays_2.SubMatrixSumQuery;
 import Advanced.Day_30_Arrays_3.MergeIntervals;
 import Advanced.Day_30_Arrays_3.NextPermutation;
@@ -29,6 +31,7 @@ import Contest.G2;
 import Day13.InterestingArray;
 import Day21.IsValidSudoku;
 import LeetCode.L1131;
+import LeetCode.L22;
 import LeetCode.L41;
 import LeetCode.L42;
 import LeetCode.L45;
@@ -57,10 +60,10 @@ public class App {
         // // B.add(6, new ArrayList<>(Arrays.asList(16, 36, 66, 90, 17, 55, 27, 26, 99, 59)));
         // // B.add(6, new ArrayList<>(Arrays.asList(67, 18, 65, 68, 87, 3, 28, 52, 9, 70)));
         // // B.add(6, new ArrayList<>(Arrays.asList(41, 19, 73, 5, 52, 96, 91, 10, 52, 21)));
-        var s1=new MinimumSwaps();
+        var s1=new L22();
         // s1.diagonal(B);
         // ArrayList<Integer> A=new ArrayList<Integer>(Arrays.asList( 1, 0, 1, 1, 1, 1, 1, 1, 0, 0, 0, 1, 0, 1, 1, 1, 0, 1, 0, 1, 1, 1, 0, 0  ));
-        System.out.println("Result: " + s1.solve(B,8));
+        System.out.println("Result: " + s1.generateParenthesis(3));
 
 
 
