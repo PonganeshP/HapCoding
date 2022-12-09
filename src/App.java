@@ -29,6 +29,7 @@ import Advanced.Day_35_PrimeNumber.CountDivisor;
 import Advanced.Day_36_Combinatronics.ComputeNCR;
 import Advanced.Day_37_Recursion.MagicNumber;
 import Advanced.Day_39_Sorting_1.KthSmallestElement;
+import Advanced.Day_40_Sorting_2.BClosestOrigin;
 import Advanced.Day_40_Sorting_2.InversionCount;
 import Advanced.Day_40_Sorting_2.LargeNumber;
 import Advanced.Day_41_Sorting_3.QuickSort;
@@ -46,7 +47,7 @@ import LeetCode.L56;
 public class App {
     public static void main(String[] args) throws Exception {
         // var s1=new EvenNumberRange();Integer
-        int[][] A={{1, 1, 1, 1, 1},{2, 2, 2, 2, 2},{3, 8, 6, 7, 3},{4, 4, 4, 4, 4},{5, 5, 5, 5, 5}};
+        int[][] A={{26, 41},{40, 47},{47, 7},{50, 34},{18, 28}};
         int[] B = {1, 4, 10, 2, 1, 5};
         int[] C = {0,-2,-1,-7,-4};
         int[] D = {2, 3};
@@ -65,10 +66,10 @@ public class App {
         // // B.add(6, new ArrayList<>(Arrays.asList(16, 36, 66, 90, 17, 55, 27, 26, 99, 59)));
         // // B.add(6, new ArrayList<>(Arrays.asList(67, 18, 65, 68, 87, 3, 28, 52, 9, 70)));
         // // B.add(6, new ArrayList<>(Arrays.asList(41, 19, 73, 5, 52, 96, 91, 10, 52, 21)));
-        var s1=new QuickSort();
+        var s1=new BClosestOrigin();
         // s1.diagonal(B);
         // ArrayList<Integer> A=new ArrayList<Integer>(Arrays.asList( 1, 0, 1, 1, 1, 1, 1, 1, 0, 0, 0, 1, 0, 1, 1, 1, 0, 1, 0, 1, 1, 1, 0, 0  ));
-        System.out.println("Result: " + s1.solve(B));
+        System.out.println("Result: " + s1.solve(A,5));
 
 
 
