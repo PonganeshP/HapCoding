@@ -42,6 +42,7 @@ import Advanced.Day_43_BinarySearch_2.SquareRootInt;
 import Advanced.Day_44_BinarySearch_3.AggressiveCows;
 import Advanced.Day_44_BinarySearch_3.PainterPartition;
 import Advanced.Day_45_TwoPointers.SubbArraySum;
+import Advanced.Day_46_Hashing.DistinctNumInWindow;
 import Advanced.Day_46_Hashing.LargestZeroSequnce;
 import Contest.G2;
 import Day13.InterestingArray;
@@ -58,7 +59,7 @@ public class App {
     public static void main(String[] args) throws Exception {
         // var s1=new EvenNumberRange();Integer
         // int[][] A={{26, 41},{40, 47},{47, 7},{50, 34},{18, 28}};
-        int[] B = { -19, 8, 2, -8 ,19, 5, -2 ,-23};
+        int[] B = {1, 1, 2, 2};
         int[] C = {0,-2,-1,-7,-4};
         int[] D = {2, 3};
         int[] E = {2, 3};
@@ -76,10 +77,10 @@ public class App {
         // // B.add(6, new ArrayList<>(Arrays.asList(16, 36, 66, 90, 17, 55, 27, 26, 99, 59)));
         // // B.add(6, new ArrayList<>(Arrays.asList(67, 18, 65, 68, 87, 3, 28, 52, 9, 70)));
         // // B.add(6, new ArrayList<>(Arrays.asList(41, 19, 73, 5, 52, 96, 91, 10, 52, 21)));
-        var s1=new LargestZeroSequnce();
+        var s1=new DistinctNumInWindow();
         // s1.diagonal(B);
         // ArrayList<Integer> A=new ArrayList<Integer>(Arrays.asList( 1, 0, 1, 1, 1, 1, 1, 1, 0, 0, 0, 1, 0, 1, 1, 1, 0, 1, 0, 1, 1, 1, 0, 0  ));
-        System.out.println("Result: " + Arrays.toString(s1.lszero(B)) );
+        System.out.println("Result: " + Arrays.toString(s1.dNums(B,1)) );
 
 
 
